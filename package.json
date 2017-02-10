@@ -1,0 +1,24 @@
+{
+  "name": "openmeetings",
+  "version": "1.0.0",
+  "description": "A library that acts as high-level bindings to the openmeetings REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/erobl/node-openmeetings.git"
+  },
+  "keywords": [
+    "openmeetings",
+    "conferencing",
+    "api"
+  ],
+  "author": "Edgar Robles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erobl/node-openmeetings/issues"
+  },
+  "homepage": "https://github.com/erobl/node-openmeetings#readme"
+}
