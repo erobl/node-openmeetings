@@ -1,6 +1,6 @@
 {
   "name": "openmeetings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library that acts as high-level bindings to the openmeetings REST API using request-promises to fulfill them.",
   "main": "index.js",
   "scripts": {
