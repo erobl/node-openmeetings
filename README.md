@@ -29,9 +29,12 @@ server.login();
 ###Examples
 ```javascript
 user = om.user("John", "Doe", "externalId1", "myAwesomeNodeApp", "superjohn");
-options = om.options(5, true, true) // join room 5, as moderator, ask user to set up their webcam
+// join room 5, as moderator, ask user to set up their webcam
+options = om.options(5, true, true) 
 server.hash(user, options).then(function(hash) {
-	console.log(hash.serviceResult.message); // we get our room hash, and now we can join the room at localhost:5080/openmeetings/swf?secureHash=[hash]
+	// we get our room hash, and now we can join 
+	// the room at localhost:5080/openmeetings/swf?secureHash=[hash]
+	console.log(hash.serviceResult.message); 
 });
 ```
 
